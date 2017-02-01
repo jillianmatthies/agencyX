@@ -1,0 +1,25 @@
+.hidden {display: none;}
+body { 
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 100%;
+}
+nav {
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	border: 0px;
+}
+nav ul li a {
+	 font-family: 'Roboto', sans-serif;
+	 font-weight: 100;
+	 font-size: 24px;
+	color: #000;
+}
+@media only screen and (max-width: 55.3125em) {
+	p {font-size: 60%;}
+	nav ul {text-align: center;}
+}
