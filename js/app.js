@@ -30,10 +30,10 @@
     topContent.innerHTML = KBContent[this.id].text;
 
     team1.innerHTML = KBContent[this.id].team1;
-    teamImg1.src = "images/"+KBContent[this.id].teamImg1+".jpeg";
+    teamImg1.src = "images/"+KBContent[this.id].teamImg1+".jpg";
     teamBio1.innerHTML = KBContent[this.id].teamBio1;
     team2.innerHTML = KBContent[this.id].team2;
-    teamImg2.src = "images/"+KBContent[this.id].teamImg2+".jpeg";
+    teamImg2.src = "images/"+KBContent[this.id].teamImg2+".jpg";
     teamBio2.innerHTML = KBContent[this.id].teamBio2;
 
     quote1.innerHTML = KBContent[this.id].quote1;
