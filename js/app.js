@@ -1,5 +1,5 @@
 (function(){
- // "use strict";
+  "use strict";
   
   console.log('Hello!');
 
@@ -42,8 +42,7 @@
     quote2Author.innerHTML = KBContent[this.id].quote2Author;
     quote3.innerHTML = KBContent[this.id].quote3;
     quote3Author.innerHTML = KBContent[this.id].quote3Author;    
-
-	  
+ 
   }
 
   //Listeners
