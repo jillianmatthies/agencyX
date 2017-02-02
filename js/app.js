@@ -19,19 +19,10 @@
   var quote2Author = document.querySelector("#quote2Author");
   var quote3 = document.querySelector("#quote3");
   var quote3Author = document.querySelector("#quote3Author");
-	
-  var appliedClass;
-
-  //var appliedClass;
 
   //Functions
   function changePage() {
-    pageTitle.classList.remove(appliedClass);
 
-    appliedClass = this.id;
-
-    pageTitle.classList.add(this.id);
-    
     document.body.style.backgroundImage = "url('images/"+KBContent[this.id].bg+".jpg')";
     console.log("url('images/"+KBContent[this.id].bg+".jpg')");
 
